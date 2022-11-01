@@ -757,7 +757,8 @@ body {
     padding: 63px 24px;
 }
 
-.portfolio-href:hover .portfolio-overlay{
+.portfolio-href:hover .portfolio-overlay,
+.portfolio-href:focus .portfolio-overlay{
     transform: translateY(0);
 }
 
